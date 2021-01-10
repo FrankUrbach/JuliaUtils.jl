@@ -18,4 +18,7 @@ makedocs(;
 
 deploydocs(;
     repo="GitHub.com/FrankUrbach/JuliaUtils.jl",
+    devbranch="master",
 )
+
+
