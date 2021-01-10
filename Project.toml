@@ -1,0 +1,13 @@
+name = "JuliaUtils"
+uuid = "12b530b8-0a6c-4730-9354-5ef112216bdb"
+authors = ["Frank Urbach"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
