@@ -1,12 +1,5 @@
-```@meta
-CurrentModule = JuliaUtils
-```
-
 # JuliaUtils
 
-```@index
-```
+### function 
 
-```@autodocs
-Modules = [JuliaUtils]
-```
+
