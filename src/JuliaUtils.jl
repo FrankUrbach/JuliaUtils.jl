@@ -43,4 +43,20 @@ function diff_functions_two_files(file_main::String, file_to_proof::String, col_
 end #end diff_functions_two_files
 
 
+"""
+```julia
+function add_line_at_first_in_textfile(file_name, line)
+```
+This function add a text at first position at file
+"""
+function add_line_at_first_in_textfile(file_name, line)
+    file_content = read(file_name,String)
+    result_content = "$line \n" * file_content
+
+    file_open = open(file_name,"w")
+    write(file_open, result_content)
+    close(file_open)
+end
+
+
 end
